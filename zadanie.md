@@ -1,10 +1,14 @@
+# ***pystart-group-programming***
+
 ## Zadanie
+
 Napisz program w Pythonie, który będzie symulować działanie sklepu internetowego. Program powinien pozwalać
 użytkownikowi na dodawanie produktów do koszyka, wyświetlanie ich listy wraz z cenami i obliczanie łącznej wartości
 zamówienia. Program powinien również umożliwiać wprowadzenie danych klienta, takich jak imię, nazwisko, adres i numer
 telefonu.
 
 ## Wymagania
+
 [ ] Program powinien składać się z co najmniej dwóch klas: Produkt i Koszyk.
 
 [ ] Klasa Produkt powinna zawierać pola nazwa i cena.
@@ -16,6 +20,7 @@ telefonu.
 [ ] Program powinien działać w nieskończoność, dopóki użytkownik nie zdecyduje się zakończyć jego działania.
 
 ## Output
+
 ```Podaj swoje imię: Jan
 Podaj swoje nazwisko: Kowalski
 Podaj swój adres: ul. Wiejska 1, 00-001 Warszawa
@@ -50,4 +55,4 @@ Dane klienta:
 --------------
 Imię i nazwisko: Jan Kowalski
 Adres: ul. Wiejska 1, 00-001 Warszawa
-Numer telefonu: 123-```
+Numer telefonu: 123-456-789```
