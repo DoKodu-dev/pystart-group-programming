@@ -57,7 +57,7 @@ def pokaz_koszyk(koszyk: list = None) -> None:
 if __name__ == '__main__':
     koszyk = []
     while True:
-        for numer, produkt in enumerate(produkty.items(), start=1):
+        for numer, produkt in enumerate(produkty.items(), start=1): # (nr, (klucz, wartosc))
             print(f'{numer} - {produkt[0]} - {produkt[1]["cena"]} PLN')
         print(f'0 - zakończ dodawanie produktów do koszyka')
 
